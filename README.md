@@ -74,7 +74,7 @@ From identity → bank data → ML scoring → SHAP → decision support
 ### 🏦 Bank Employee Dashboard
 
 <p align="center">
-  <img height="4035" alt="localhost_5174_credit-ai_dashboard (6)" src="https://github.com/user-attachments/assets/63e7bd7e-0931-4ab8-a5ff-0cf767b0232c" width="90%" />
+  <img src="https://github.com/user-attachments/assets/63e7bd7e-0931-4ab8-a5ff-0cf767b0232c" width="90%" />
 </p>
 
 ✔ Loan decision support
@@ -128,10 +128,21 @@ From identity → bank data → ML scoring → SHAP → decision support
 
 ## 🏗️ Architecture
 
-<p align = "centre" >
-  <img src = "https://github.com/user-attachments/assets/f75b9989-de01-4ae5-aa1c-46fcfd6bdd06" width="90%"> 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f75b9989-de01-4ae5-aa1c-46fcfd6bdd06" width="90%" />
 </p>
 
+### 🔁 Data Flow
+
+User → Frontend → Backend → Feature Engineering → ML Model → SHAP → LLM Insights → Dashboard
+
+## ⚡ Why This Architecture Works
+
+- Scalable: ML runs as independent service  
+- Interpretable: SHAP ensures transparent decisions  
+- Flexible: Supports thin-file users and alternative data  
+- Production-ready: Mirrors real-world fintech systems  
+---
 ## 📊 ML Pipeline
 
 ```
