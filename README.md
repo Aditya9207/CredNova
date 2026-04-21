@@ -8,9 +8,9 @@
 
 <p align="center">
   <a href="https://crednova.vercel.app"><b>🌐 Live Demo</b></a> •
-  <a href="#-features"><b>✨ Features</b></a> •
-  <a href="#-architecture"><b>🏗️ Architecture</b></a> •
-  <a href="#-setup"><b>⚙️ Setup</b></a>
+  <a href="#features"><b>✨ Features</b></a> •
+  <a href="#architecture"><b>🏗️ Architecture</b></a> •
+  <a href="#setup"><b>⚙️ Setup</b></a>
 </p>
 
 ---
@@ -28,14 +28,31 @@
 
 ## 📌 What is CredNova?
 
-CredNova is a **credit risk assessment and loan underwriting platform** that mimics real-world banking systems.
+CredNova is an **AI-powered credit evaluation system** that helps lenders decide whether to approve or reject a loan — even for users with little or no credit history.
 
-It enables:
+Instead of relying only on traditional credit scores, it analyzes:
+- 📄 Bank statements (spending patterns, cash flow)
+- 📊 Financial behavior (UPI usage, cash ratio, transactions)
+- 🧠 Machine learning risk predictions (Probability of Default)
+- 🔍 Explainable AI (SHAP) to justify every decision
 
-* Applicants to apply for loans (even without credit history)
-* ML models to evaluate risk using structured + alternative data
-* Bank employees to make informed decisions with explainable insights
+---
 
+### 🎯 In simple terms
+
+CredNova acts like a **digital loan officer powered by AI**:
+
+- 👤 **Applicant** → submits financial data (even without CIBIL score)  
+- ⚙️ **System** → processes data + runs ML model  
+- 🧠 **AI** → calculates credit score + risk level  
+- 🏦 **Bank/Admin** → gets clear insights to approve/reject  
+
+---
+
+### 💡 Why it matters
+
+Traditional systems fail for **thin-file users** (no credit history).  
+CredNova solves this by using **alternative data + explainable AI**, making credit access more inclusive and transparent.
 ---
 
 ## 📸 Product Screens
@@ -84,7 +101,7 @@ From identity → bank data → ML scoring → SHAP → decision support
 
 ---
 
-## ✨ Features
+## Features
 
 ### 👤 Applicant Side
 
@@ -126,7 +143,7 @@ From identity → bank data → ML scoring → SHAP → decision support
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f75b9989-de01-4ae5-aa1c-46fcfd6bdd06" width="90%" />
@@ -217,12 +234,13 @@ VITE_CLERK_PUBLISHABLE_KEY=your_key
 
 ---
 
-## 🚀 Setup
+## Setup
 
 ### 1. Clone Repositories
 
 ```
-
+https://github.com/Aditya9207/CredNova-Frontend.git
+https://github.com/Aditya9207/CredNova-Backend.git
 ```
 
 ---
@@ -230,7 +248,7 @@ VITE_CLERK_PUBLISHABLE_KEY=your_key
 ### 2. Frontend
 
 ```
-cd crednova-frontend
+cd CredNova-Frontend
 npm install
 npm run dev
 ```
@@ -240,7 +258,7 @@ npm run dev
 ### 3. Backend
 
 ```
-cd crednova-backend
+cd CredNova-Backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
@@ -286,8 +304,10 @@ crednova-backend/
 **Aditya Jamdade**
 
 📧 [jamdadeaditya05@gmail.com](mailto:jamdadeaditya05@gmail.com)
-💼 LinkedIn
-🐙 GitHub
+
+💼 [LinkedIn](www.linkedin.com/in/adityajamdade)  
+
+🐙 [GitHub](https://github.com/Aditya9207)
 
 ---
 
