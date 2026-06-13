@@ -17,7 +17,7 @@
 
 ## ⚡ Key Highlights
 
-* 🧠 **Calibrated ML Model** (LightGBM + Probability Mapping)
+* 🧠 **Calibrated ML Model** (XGBOOST + Probability Mapping)
 * 🔍 **Explainable AI (SHAP)** for transparent decisions
 * 📄 **Bank Statement Parsing** → Feature Engineering Pipeline
 * 💳 **Thin-file Applicant Support** (No CIBIL required)
@@ -125,7 +125,7 @@ From identity → bank data → ML scoring → SHAP → decision support
 
 ### 🤖 ML & AI Core
 
-* LightGBM + scikit-learn pipeline
+* XGBOOST + scikit-learn pipeline
 * Probability of Default (PD) → Credit Score mapping
 * Risk band classification
 * SHAP feature attribution
@@ -167,7 +167,7 @@ Raw Data
    ↓
 Preprocessing (sklearn)
    ↓
-LightGBM Model
+XGBOOST Model
    ↓
 Probability of Default (PD)
    ↓
@@ -201,7 +201,7 @@ Probability of Default (PD)
 
 ### ML / AI
 
-* LightGBM
+* XGBOOST
 * scikit-learn
 * SHAP
 * pandas, NumPy
